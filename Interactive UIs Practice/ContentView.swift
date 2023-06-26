@@ -27,6 +27,7 @@ struct ContentView: View {
             Text("What is your birthday?")
                 .font(.title)
                 .padding()
+            Text("yas")
             
             TextField("Birthday", text: $value2)
                 .multilineTextAlignment(.center)
